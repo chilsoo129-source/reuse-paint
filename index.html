@@ -7,90 +7,122 @@
 
 <style>
 body{
-font-family:sans-serif;
 margin:0;
+font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
 background:#0f172a;
-color:white;
+color:#fff;
+}
+.hero{
+background:url("https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?q=80&w=1400") center/cover;
+padding:120px 20px;
 text-align:center;
 }
-header{
-padding:60px 20px;
-background:linear-gradient(45deg,#06b6d4,#22c55e);
+.hero h1{font-size:48px;margin:0;}
+.hero p{font-size:22px;margin-top:10px;}
+.cta{
+margin-top:30px;
 }
+.btn{
+display:inline-block;
+padding:18px 30px;
+margin:10px;
+border-radius:10px;
+text-decoration:none;
+font-weight:bold;
+font-size:18px;
+}
+.tel{background:#22c55e;color:white;}
+.mail{background:#06b6d4;color:white;}
+
 section{
-padding:40px 20px;
-max-width:800px;
+max-width:900px;
 margin:auto;
+padding:60px 20px;
 }
-.box{
+.card{
 background:#1e293b;
-padding:25px;
-border-radius:15px;
+padding:30px;
+border-radius:16px;
 margin:20px 0;
 }
-h1{font-size:40px;margin:0;}
-h2{color:#22c55e;}
-a{
-display:inline-block;
-padding:15px 25px;
-margin:10px;
-background:#22c55e;
-color:white;
-text-decoration:none;
-border-radius:10px;
-font-weight:bold;
+
+h2{
+color:#22c55e;
+font-size:32px;
+text-align:center;
 }
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
 footer{
-padding:30px;
-font-size:14px;
-opacity:0.7;
+text-align:center;
+padding:40px;
+opacity:0.6;
 }
 </style>
 </head>
 
 <body>
 
-<header>
-<h1>企業向け 塗料無料回収</h1>
-<p>余った塗料、処分に困っていませんか？</p>
-</header>
+<!-- ヒーロー -->
+<div class="hero">
+<h1>余った塗料、無料回収します</h1>
+<p>処分費ゼロ・環境対応・関東エリア対応</p>
 
-<section class="box">
+<div class="cta">
+<a class="btn tel" href="tel:09061203852">📞 今すぐ電話</a>
+<a class="btn mail" href="mailto:tanakatoso_yoon@ezweb.ne.jp">✉ メール相談</a>
+</div>
+</div>
+
+<section>
+<h2>この塗料、処分に困っていませんか？</h2>
+
+<div class="grid">
+<div class="card">産廃費用が高い…</div>
+<div class="card">倉庫に余っている…</div>
+<div class="card">現場に置きっぱなし…</div>
+</div>
+</section>
+
+<section>
 <h2>回収対象</h2>
-<p>
-未使用・使用済み塗料（状態良好）<br>
-水性・油性・建築用・工業用・木工用など
-</p>
+<div class="card">
+✔ 未使用・使用済み塗料（状態良好）<br>
+✔ 水性・油性・建築・工業・木工用<br>
+✔ 1缶から回収OK
+</div>
 </section>
 
-<section class="box">
-<h2>回収条件</h2>
-<p>
-関東周辺の企業様対象<br>
-1缶から回収歓迎<br>
-指定日に無料回収
-</p>
-</section>
-
-<section class="box">
+<section>
 <h2>回収不可</h2>
-<p>
-希釈塗料 / 硬化塗料 / ゴミ混入 / 混合塗料 / 特注色<br>
+<div class="card">
+✖ 希釈塗料 / 硬化塗料 / ゴミ混入<br>
+✖ 混合塗料 / 特注色<br>
 ※廃塗料は1缶4000円
-</p>
+</div>
 </section>
 
-<section class="box">
+<section>
+<h2>回収の流れ</h2>
+<div class="grid">
+<div class="card">① 電話・メール</div>
+<div class="card">② 種類と量確認</div>
+<div class="card">③ 指定日に無料回収</div>
+</div>
+</section>
+
+<section>
 <h2>お問い合わせ</h2>
-<p>
-TEL：090-6120-3852<br>
-MAIL：tanakatoso_yoon@ezweb.ne.jp<br>
+<div class="card">
+📞 090-6120-3852<br>
+✉ tanakatoso_yoon@ezweb.ne.jp<br>
 東京都八王子市長房町627-1-101
-</p>
-
-<a href="tel:09061203852">電話する</a>
-<a href="mailto:tanakatoso_yoon@ezweb.ne.jp">メールする</a>
-
+</div>
 </section>
 
 <footer>
