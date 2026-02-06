@@ -3,66 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="favicon.png">
 <title>会社概要 | リユース塗料の田中塗装</title>
 
 <style>
-body{
-  margin:0;
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto;
-  background:#0b0f14;
-  color:#e8eef6;
-  line-height:1.8;
-}
-.wrap{max-width:900px;margin:auto;padding:40px 20px}
-h1{font-size:34px;margin-bottom:30px}
-.card{
-  background:#0f1620;
-  padding:30px;
-  border-radius:12px;
-}
-table{width:100%;border-collapse:collapse}
-td{
-  padding:16px;
-  border-bottom:1px solid #223041;
-}
-td:first-child{
-  width:180px;
-  color:#8bc6d9;
-  font-weight:bold;
-}
-a{color:#4cc9f0;text-decoration:none}
+:root{--bg:#0b0f14;--panel:#0f1620;--line:#223041;--text:#e8eef6;--muted:#b8c6d9;--accent:#2a66ff}
+body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont}
+.wrap{max-width:900px;margin:auto;padding:20px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:24px}
+a{color:#8ab4ff;text-decoration:none}
 </style>
 </head>
 
 <body>
+<nav style="padding:20px">
+<a href="index.html">ホーム</a> |
+<a href="cases.html">回収事例</a> |
+<a href="flow.html">回収の流れ</a> |
+<a href="company.html">会社概要</a>
+</nav>
+
 <div class="wrap">
+<div class="card">
 <h1>会社概要</h1>
 
-<div class="card">
-<table>
-<tr><td>屋号</td><td>田中塗装</td></tr>
-<tr><td>サービス名</td><td>リユース塗料回収サービス</td></tr>
-<tr><td>所在地</td><td>東京都八王子市</td></tr>
-<tr><td>対応エリア</td><td>東京都・関東エリア</td></tr>
-<tr><td>事業内容</td>
-<td>
-・余剰塗料の無料回収<br>
-・在庫塗料の回収<br>
-・未使用塗料の回収<br>
-・塗料のリユース / リサイクル
-</td></tr>
-<tr><td>特徴</td>
-<td>
-・処分費0円<br>
-・企業・法人対応<br>
-・環境配慮型サービス
-</td></tr>
-<tr><td>お問い合わせ</td>
-<td>メール・電話にて対応</td></tr>
-</table>
-</div>
+<p><b>屋号：</b> 田中塗装</p>
+<p><b>サービス名：</b> リユース塗料の田中塗装</p>
 
+<p><b>所在地：</b><br>
+〒193-0824<br>
+東京都八王子市長房町627-1-101
+</p>
+
+<p><b>代表：</b> 中田 七守</p>
+
+<p><b>事業内容：</b></p>
+<ul>
+<li>余剰塗料・在庫塗料・未使用塗料の回収</li>
+<li>リユース可能塗料の再活用</li>
+<li>塗料処分に関する相談</li>
+</ul>
+
+<p><b>対応エリア：</b> 八王子市・東京都・関東近郊</p>
+
+</div>
 </div>
 </body>
 </html>
